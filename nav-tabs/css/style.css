@@ -7,7 +7,7 @@ body {
 
 /* HEADER-GRID */
 .wrapper {
-  background: linear-gradient(to right, #3494E6,#EC6EAD);
+  background: linear-gradient(to right, #5B86E5,#36D1DC);
   border: 10px solid #f4f4f4;
   border-radius: 1.5rem 1.5rem 0 0;
   border-width: 0.5rem;
@@ -67,17 +67,16 @@ body {
   padding: 0;
 }
 
-.nav-tabs ul a {
-  text-decoration: none;
-  color: #000;
-}
-
 .nav-tabs ul li {
   margin: 0 2%;
   border-radius: 8px 8px 0 0;
   transition: all 0.2s;
 }
 
+.nav-tabs ul a {
+  text-decoration: none;
+  color: #000;
+}
 
 .nav-tabs ul .not-current-tab:hover {
   background: #d4d3d3;
@@ -139,7 +138,7 @@ body {
   grid-column-end: 4;
   grid-row-start: 3;
   height: 31vh;
-  background: linear-gradient(to right, #3494E6,#EC6EAD);
+  background: linear-gradient(to right, #5B86E5,#36D1DC);
   /* clip-path: polygon(0 0, 100% 25%, 100% 100%, 0 75%); */
   border: 0.5rem solid #f4f4f4;
   border-bottom-left-radius: 1.5rem;
